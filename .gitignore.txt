@@ -1,0 +1,23 @@
+# Node modules (if using Node.js)
+node_modules/
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Terraform variable files
+infra/terraform.tfvars
+
+# Local CLI files
+.terraform/
+.terraform.lock.hcl
+
+# Logs or temp files
+*.log
+
+# VS Code workspace settings
+.vscode/
+
+# Docker files
+*.tar
+docker/*.tar
