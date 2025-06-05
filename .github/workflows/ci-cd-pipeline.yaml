@@ -1,0 +1,8 @@
+# Placeholder only since Jenkins handles CI/CD
+name: Placeholder CI/CD
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Jenkins handles CI/CD"

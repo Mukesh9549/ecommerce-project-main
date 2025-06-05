@@ -1,0 +1,5 @@
+replicaCount: 2
+image:
+  repository: us-central1-docker.pkg.dev/my-gcp-project/repo/ecommerce-app
+  tag: latest
+  

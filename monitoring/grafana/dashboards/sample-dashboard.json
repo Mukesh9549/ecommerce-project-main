@@ -1,0 +1,13 @@
+{
+  "dashboard": {
+    "id": null,
+    "title": "Ecommerce Monitoring",
+    "panels": [
+      {
+        "type": "graph",
+        "title": "HTTP Requests",
+        "targets": [{ "expr": "http_requests_total" }]
+      }
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "ecommerce-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo 'Dummy test passed!'"
+  }
+}
